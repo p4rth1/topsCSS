@@ -1,0 +1,17 @@
+.icon{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    
+}
+ .in{
+    height: 100px;
+    width: 100px;
+    transform: scale(0);
+    transition: 0.5s;
+    
+ }
+.icon:hover .in{
+    background-color: aqua;
+    transform: scale(1);
+}

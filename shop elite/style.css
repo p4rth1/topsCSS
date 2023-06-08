@@ -1,0 +1,16 @@
+.btn{
+    height: 50px;
+    width: 120px;
+    margin:100px auto;
+    background-color: aqua;
+    text-align: center;
+    line-height: 50px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover{
+    outline: 10px aqua solid;
+    outline-offset: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}

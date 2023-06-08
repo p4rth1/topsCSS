@@ -1,0 +1,151 @@
+.up{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+    
+}
+
+.home:hover{
+    cursor: pointer;
+}
+.child1{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+    position: relative;
+}
+.home:hover .child1{
+    width: 100%;
+    cursor: pointer;
+}
+.about{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+}
+.about:hover{
+    cursor: pointer;
+}
+.child2{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.about:hover .child2{
+    width: 100%;
+    cursor: pointer;
+}
+.man{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+}
+.man:hover{
+    cursor: pointer;
+}
+.child3{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.man:hover .child3{
+    width: 100%;
+    cursor: pointer;
+}
+.woman{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+}
+.woman:hover{
+    cursor: pointer;
+}
+.child4{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.woman:hover .child4{
+    width: 100%;
+    cursor: pointer;
+}
+.code{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+}
+.code:hover{
+    cursor: pointer;
+}
+.child5{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.code:hover .child5{
+    width: 100%;
+    cursor: pointer;
+}
+.contact{
+    height: 90px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: large;
+}
+.contact:hover{
+    cursor: pointer;
+}
+.child6{
+    height: 10px;
+    width: 0%;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.contact:hover .child6{
+    width: 100%;
+    cursor: pointer;
+}

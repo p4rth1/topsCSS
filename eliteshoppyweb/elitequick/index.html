@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 500px;
+            width: 300px;
+            margin: 100px auto;
+            position: relative;
+            box-shadow: 0px 0px 20px grey;
+        }
+        .img{
+            height: 500px;
+            width: 300px;
+            transform: rotateY(360deg);
+            background-image: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m3.jpg);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: center;
+            transition: 0.3s;
+        }
+        .box:hover .img{
+            transform: rotateY(0deg);
+        }
+        .quick{
+            height: 50px;
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.625);
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            top: 0%;
+            transition: 0.8s;
+        }
+        .info{
+            height: 150px;
+            width: 300px;
+            position: absolute;
+            /* background-color: black; */
+            top: 70%;
+        }
+        .btn{
+            height: 50px;
+            width: 150px;
+            background-color: aqua;
+            margin: 80px auto;
+            transition: 0.2s;
+            cursor: pointer;
+            transform: translateY(-20px);
+        
+        }
+        .btn:hover{
+            outline: 5px solid aqua;
+            outline-offset: 5px;
+        }
+        .box:hover .quick{
+            visibility: visible;
+            opacity: 1;
+            top: 60%;
+        }
+        .quick:hover{
+            background-color: aqua;
+            cursor: pointer;
+        }
+        .font{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            line-height: 50px;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+        .btnf{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            line-height: 50px;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            
+        }
+        .de{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            transform: translateY(20px);
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="img"></div>
+        <div class="quick">
+            <span class="font">Quick View</span>
+        </div>
+        <div class="info">
+            <span class="de">
+                Dark Blue Track Pants
+            </span>
+            <div class="btn">
+                <span class="btnf">ADD TO CART</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

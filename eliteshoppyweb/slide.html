@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .grand{
+        height: 620px;
+        width: 510px;
+        position: relative;
+        margin: 50px auto;
+        transition: 1s;
+        overflow: hidden;
+
+
+    }
+
+    .dad {
+        background: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bb1.jpg);
+        background-position-x: -20px;
+        background-size: 120% 100%;
+        display: flex;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+
+    }
+
+    .grand:hover .dad {
+        background-position-x: 0px;
+    }
+
+    .child {
+        border: 5px solid white;
+        position: absolute;
+        top: 40px;
+        left: 160px;
+        height: 500px;
+        width: 300px;
+        padding: 10px;
+        opacity: 0;
+        transition: 0.5s;
+        color: white;
+    }
+
+    .grand:hover .child {
+        left: 100px;
+        opacity: 1;
+    }
+    .look{
+        transform: translate(300px, 100px);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+    }
+    .first{
+        color: red;
+    }
+    .ll{
+        font-weight: bold;
+        color: white;
+        letter-spacing: 13px;
+    }
+    .ss{
+        color: black;
+    }
+</style>
+</head>
+
+<body>
+    <div class="grand">
+        
+     
+        <div class="dad">
+            <span class="look">
+                <b class="first">S</b>
+                <span class="ll">ALE</span>
+            </span>
+            <div class="child">
+            </div>
+        </div>
+    </div>
+    <div class="child1">
+        <span class="ss">
+            Upto 50% off
+        </span>
+        </div>
+
+</body>
+
+</html>

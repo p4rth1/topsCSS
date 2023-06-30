@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.shirt{
+    height: 300px;
+    width: 500px;
+    background-image: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+    background-size: cover;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.on1{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(73, 66, 66, 0.225);
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    transition: 0.5s;
+}
+.shirt:hover .on1{
+    top: 0px;
+    left: 0px;
+}
+.on2{
+    height:300px ;
+    width: 500px;
+    background-color: rgba(73, 66, 66, 0.255);
+    position: absolute;
+    right: -100%;
+    bottom: -100%;
+    transition: 0.5s;
+}
+.shirt:hover .on2{
+    bottom: 0px;
+    right: 0px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="shirt">
+        <div class="on1"></div>
+        <div class="on2"></div>
+    </div>
+</body>
+</html>

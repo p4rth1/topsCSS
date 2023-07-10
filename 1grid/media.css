@@ -1,0 +1,15 @@
+@media(max-width:1300px){
+    .ac{
+        display: none;
+    }
+    .log{
+      display: block;
+        
+    } 
+    .text{
+        margin-top: 120px;
+    }
+    .text2{
+        padding: 30px;
+    }
+}
